@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+  color: white;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.container {
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+ul {
+  /* list-style: none; */
+  background-color: red;
+  display: flex;
+  gap: 2rem;
+
+  list-style-type: none;
+}
