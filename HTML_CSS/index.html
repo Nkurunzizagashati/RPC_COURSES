@@ -3,23 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./styles.css" /> -->
-
-    <style>
-      ul {
-        list-style-type: none;
-      }
-    </style>
+    <title>John Doe</title>
+    <link rel="stylesheet" href="./portfolio.css" />
   </head>
   <body>
-    <div class="container">
-      <h3>Fruits:</h3>
-      <ul>
-        <li>Bananas</li>
-        <li>Mangos</li>
-        <li>Apples</li>
-      </ul>
-    </div>
+    <header>
+      <nav>
+        <a href="" class="logo nav_link">John<span>Doe</span></a>
+
+        <ul class="nav_links">
+          <li><a href="" class="nav_link">Home</a></li>
+          <li><a href="" class="nav_link">Portfolio</a></li>
+          <li><a href="" class="nav_link">Services</a></li>
+        </ul>
+        <a href="" class="nav_link contact-me-btn">Contact me</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home">
+        <div class="home-content">
+          <h1>Hi, I'm John <span>Doe</span>. I'm Frontend web developer</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est error
+            velit fugit deserunt assumenda sapiente ullam eligendi rerum
+            necessitatibus corporis veniam magnam accusamus numquam, fuga
+            reiciendis provident reprehenderit asperiores quia.
+          </p>
+
+          <div class="home-btn-container">
+            <a href="" class="btn-1">My CV</a>
+            <a href="#contact" class="btn-2">Contact Me</a>
+          </div>
+        </div>
+
+        <img
+          src="./assets/max-andrey-6_9TzlWhpdM-unsplash.jpg"
+          alt="JohnDoe's profile picture"
+        />
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h1>PROJECTS</h1>
+      </section>
+      <section id="contact" class="contact">
+        <h1>GET IN TOUCH</h1>
+
+        <div class="contact-form-container">
+          <form action="">
+            <div class="input-label-container">
+              <label for="name">your name</label>
+              <input type="text" />
+            </div>
+            <div class="input-label-container">
+              <label for="email">your email</label>
+              <input type="text" />
+            </div>
+            <div class="input-label-container">
+              <label for="message">Your Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button type="submit">Send Me a Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 John Doe. All right reserved.</p>
+    </footer>
   </body>
 </html>
