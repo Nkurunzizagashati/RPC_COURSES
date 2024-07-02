@@ -14,6 +14,10 @@
   background-color: violet;
 }
 
+.box:nth-child(3) {
+  background-color: blue;
+}
+
 .box:last-child {
   background-color: orange;
 }
