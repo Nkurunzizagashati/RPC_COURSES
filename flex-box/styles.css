@@ -1,21 +1,27 @@
 .container {
   min-height: 100vh;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .box:nth-child(1) {
   background-color: red;
+  flex-grow: 3;
 }
 .box:nth-child(2) {
   background-color: violet;
-}
-
-.box:nth-child(3) {
-  background-color: blue;
+  flex-grow: 2;
 }
 
 .box:last-child {
